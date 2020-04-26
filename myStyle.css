@@ -27,6 +27,14 @@ h4 {
     color:black;
 }
 
+h5 {
+    color:black;
+    text-align:left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    font-size:large;
+}
+
 
 
 
@@ -57,4 +65,3 @@ h3 {
     clear:right;
     margin:1em 1em 1em 1em;
 }
-
