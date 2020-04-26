@@ -9,7 +9,6 @@ h1 {
     color:blueviolet;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight:lighter;
- 
 }
 
 h2 {
@@ -32,25 +31,30 @@ h4 {
 
 
 a:link{
-
     color:black;
 }
 
-
 a:visited{
-
     color:black;
-
 }
 
 a:hover{
-
     color:#FF00FF;
-
 }
 
 a:active{
-
     color:#FF00FF;
-
 }
+
+
+
+img {
+    float:right;
+    margin:1em 1em 1em 1em;
+}
+
+h3 {
+    clear:right;
+    margin:1em 1em 1em 1em;
+}
+
