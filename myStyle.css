@@ -31,7 +31,6 @@ h4 {
 h5 {
     color:black;
     font-family:Arial, Helvetica, sans-serif;
-    text-align:left;
     font-weight:lighter;
     font-size:large;
 }
@@ -39,6 +38,11 @@ h5 {
 ul {
     bottom-margin:1.2em;
 }
+
+
+
+
+
 
 a:link{
     color:black;
@@ -58,12 +62,32 @@ a:active{
 
 
 
+
+
+
 img {
     float:right;
-    margin:1em 1em 1em 1em;
+    margin:1em;
 }
 
 h3 {
     clear:right;
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+/*img#1 {
+    float:right;
     margin:1em 1em 1em 1em;
+}
+
+img#2 {
+    float:right;
+    margin:1em 1em 1em 1em;
+}*/
+
+h5#email {
+    text-align:left;
 }
