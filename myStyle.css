@@ -36,7 +36,9 @@ h5 {
     font-size:large;
 }
 
-
+ul {
+    bottom-margin:1.2em;
+}
 
 a:link{
     color:black;
