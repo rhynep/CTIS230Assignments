@@ -6,16 +6,18 @@ body {
 }
 
 
+
+/* headings */
 h1 {
     color:blueviolet;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight:lighter;
+  
 }
 
 h2 {
     color:indigo;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight:lighter;
+   
 }
 
 h3 {
@@ -26,26 +28,39 @@ h3 {
 
 h4 {
     color:black;
+    
 }
 
 h5 {
     color:black;
     font-family:Arial, Helvetica, sans-serif;
-    font-weight:lighter;
     font-size:large;
 }
 
 
 
+/* group selector */
+h1, h2, h4, h5 {
 
-ul {
-    bottom-margin:1.2em;
+    font-weight:lighter;
+}
+
+
+
+/* descendant selector */
+p strong {
+    color:indigo;
+}
+
+p.intro {
+    font-style:italic;
+
 }
 
 
 
 
-
+/* links */
 a:link{
     color:black;
 }
@@ -63,15 +78,7 @@ a:active{
 }
 
 
-
-
-
-
-img {
-    float:right;
-    margin:1em;
-}
-
+/* margins */
 h3 {
     clear:right;
     margin-top:1em;
@@ -80,16 +87,29 @@ h3 {
     margin-right:1em;
 }
 
-/*img#1 {
-    float:right;
-    margin:1em 1em 1em 1em;
+
+ul {
+    margin-inline:1.2em;
 }
 
-img#2 {
-    float:right;
-    margin:1em 1em 1em 1em;
-}*/
 
+/* image layout */
+img {
+    float:right;
+    margin:.5em;
+}
+
+
+/* object identifiers */
 h5#email {
+
     text-align:left;
 }
+
+
+img#image2 {
+    float:left;
+    margin:.5em .5em .5em .5em;
+}
+
+
