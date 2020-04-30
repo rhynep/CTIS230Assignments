@@ -4,32 +4,53 @@
 
 body {
     color:back;
-    background-color:aliceblue;
+    background-color:eggshell;
+    font-size:1.3em;
     font-family:Arial, Helvetica, sans-serif;
     text-align:justify;
-    margin-left:99px;
-    margin-right:99px;
+    margin-left:77px;
+    margin-right:77px;
+}
+
+
+
+/* links */
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:#FF00FF;
+}
+
+a:active{
+    color:#FF00FF;
 }
 
 
 
 /* headings */
 h1 {
-    color:blueviolet;
+    color:black;
     font-family:'Staatliches', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:xx-large;
-    background-color:white;
+    font-size:2.em;
+    background-color:aliceblue;
 }
 
 h2 {
-    color:indigo;
+    color:blueviolet;
     font-family: 'Saira', sans-serif, Arial;
-    font-size:x-large;
+    font-size:1.7em;
 }
 
 h3 {
     color:black;
     font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
+    font-size:1.3em;
     font-weight:strong;
 }
 
@@ -39,7 +60,7 @@ h4 {
 
 h5 {
     color:black;
-    font-family:'Staatliches', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Saira', sans-serif, Arial;
     font-size:large;
 }
 
@@ -64,24 +85,23 @@ p.intro {
 
 
 
-/* links */
-a:link{
-    color:black;
-}
-
-a:visited{
-    color:black;
-}
-
-a:hover{
-    color:#FF00FF;
-}
-
-a:active{
-    color:#FF00FF;
+/* margins, etc */
+h3 {
+    clear:right;
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left:1em;
+    margin-right:1em;
 }
 
 
+ul li {
+    margin-inline:1.2em;
+}
+
+li {
+    font-family:'Saira', sans-serif, Arial;
+}
 
 /* image layout */
 img {
@@ -107,24 +127,8 @@ img#name {
     position:fixed;
     right:9px;
     top:10px;
-    opacity: 0.3;
+    opacity: 0.1;
  
-}
-
-
-
-/* margins, etc */
-h3 {
-    clear:right;
-    margin-top:1em;
-    margin-bottom:1em;
-    margin-left:1em;
-    margin-right:1em;
-}
-
-
-ul li {
-    margin-inline:1.2em;
 }
 
 
@@ -135,7 +139,9 @@ div.obj {
     flex-direction:row;
     border:lavender solid 1px;
     text-align:justify;
-    padding:1%;
+    padding-right:1%;
+    padding-left:1%;
+    background-color:aliceblue;
 }
 
 div.work {
@@ -143,7 +149,9 @@ div.work {
     flex-direction:column;
     border:lavender solid 1px;
     text-align:justify;
-    padding:1%;
+    padding-right:1%;
+    padding-left:1%;
+    background-color:aliceblue;
 }
 
 div.edu {
@@ -151,5 +159,7 @@ div.edu {
     flex-direction:column;
     border:lavender solid 1px;
     text-align:justify;
-    padding:1%;
+    padding-right:1%;
+    padding-left:1%;
+    background-color:aliceblue;
 }
