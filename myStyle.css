@@ -181,7 +181,7 @@ div.thesistitle {
     flex-direction:row;
     border: 1px lavender;
     height:100px;
-  
+    
     margin-top:5%;
     margin-left:5%;
     margin-right:5%;
@@ -198,6 +198,7 @@ div.thesistitle {
     margin-bottom:10px;
     font-size:1em;
     font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
+    color:#FF00FF;
     height:10%;
     
   }
