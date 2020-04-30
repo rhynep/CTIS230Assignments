@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Staatliches&family=Teko:wght@300&display=swap');
+
+
 body {
     color:back;
     background-color:aliceblue;
     font-family:Arial, Helvetica, sans-serif;
     text-align:justify;
+    margin-left:99px;
+    margin-right:99px;
 }
 
 
@@ -10,30 +16,30 @@ body {
 /* headings */
 h1 {
     color:blueviolet;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
+    font-family:'Staatliches', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large;
+    background-color:white;
 }
 
 h2 {
     color:indigo;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
+    font-family: 'Saira', sans-serif, Arial;
+    font-size:x-large;
 }
 
 h3 {
     color:black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
     font-weight:strong;
 }
 
 h4 {
     color:black;
-    
 }
 
 h5 {
     color:black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Staatliches', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:large;
 }
 
@@ -41,7 +47,6 @@ h5 {
 
 /* group selector */
 h1, h2, h4, h5 {
-
     font-weight:lighter;
 }
 
@@ -54,9 +59,8 @@ p strong {
 
 p.intro {
     font-style:italic;
-
+    font-weight:strong;
 }
-
 
 
 
@@ -78,7 +82,38 @@ a:active{
 }
 
 
-/* margins */
+
+/* image layout */
+img {
+    float:right;
+    margin:.5em .5em .5em .5em;
+}
+
+
+
+/* object identifiers */
+h5#email {
+
+    text-align:right;
+    
+}
+
+img#image2 {
+    float:left;
+   
+}
+
+img#name {
+    position:fixed;
+    right:77px;
+    bottom:10px;
+   
+ 
+}
+
+
+
+/* margins, etc */
 h3 {
     clear:right;
     margin-top:1em;
@@ -88,28 +123,33 @@ h3 {
 }
 
 
-ul {
+ul li {
     margin-inline:1.2em;
 }
 
 
-/* image layout */
-img {
-    float:right;
-    margin:.5em;
+
+/* flexbox */
+div.obj {
+    display:flex;
+    flex-direction:row;
+    border:lavender solid 1px;
+    text-align:justify;
+    padding:1%;
 }
 
-
-/* object identifiers */
-h5#email {
-
-    text-align:left;
+div.work {
+    display:flex;
+    flex-direction:column;
+    border:lavender solid 1px;
+    text-align:justify;
+    padding:1%;
 }
 
-
-img#image2 {
-    float:left;
-    margin:.5em .5em .5em .5em;
+div.edu {
+    display:flex;
+    flex-direction:column;
+    border:lavender solid 1px;
+    text-align:justify;
+    padding:1%;
 }
-
-
