@@ -94,7 +94,7 @@ img {
 /* object identifiers */
 h5#email {
 
-    text-align:right;
+    text-align:left;
     
 }
 
@@ -106,7 +106,7 @@ img#image2 {
 img#name {
     position:fixed;
     right:9px;
-    bottom:10px;
+    top:10px;
     opacity: 0.5;
  
 }
