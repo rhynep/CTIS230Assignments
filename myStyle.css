@@ -38,7 +38,7 @@ h1 {
     color:black;
     font-family:'Saira', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:2em;
-    background-color:aliceblue;
+    background-color:#ECECEC;
     text-align:left;
 }
 
@@ -142,7 +142,7 @@ div.obj {
     text-align:justify;
     padding-right:1%;
     padding-left:1%;
-    background-color:aliceblue;
+    background-color:#F5F5F5;
 }
 
 div.work {
@@ -152,7 +152,7 @@ div.work {
     text-align:justify;
     padding-right:1%;
     padding-left:1%;
-    background-color:aliceblue;
+    background-color:#F5F5F5;
 }
 
 div.edu {
@@ -162,7 +162,7 @@ div.edu {
     text-align:justify;
     padding-right:1%;
     padding-left:1%;
-    background-color:aliceblue;
+    background-color:#F5F5F5;
 }
 
 div.thesistitle {
