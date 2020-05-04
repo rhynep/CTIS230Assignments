@@ -16,8 +16,6 @@ function onMouseOut() {
 
 
 
-
-
 // the button: changes color of p - store manager job description
 thebutton = document.getElementById("thebutton");
 otheritem = document.getElementById("buttontest");
@@ -30,7 +28,6 @@ otheritem.style.color="red";
 
 
 
-
 // the second button: button 2 - ul - changes color of fashion panel
 thebutton2 = document.getElementById("thebutton2");
 otheritem = document.getElementById("buttontest2");
@@ -39,6 +36,8 @@ thebutton2.addEventListener("click", onButtonClick);
 function onButtonClick() {
     otheritem.style.color="magenta";
 }
+
+
 
 // input box 
 textentry = document.getElementById('myinput');
