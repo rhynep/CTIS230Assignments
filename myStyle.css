@@ -166,32 +166,27 @@ img#name {
 }
 
 p#p_li {
-    margin-bottom:1px;
-    padding-bottom:2px;
+    margin-left:5%;
     text-align:justify;
     padding-right:1%;
     padding-left:1%;
-    background-color:#F5F5F5;
-    border:lavender solid 1px;
+    background-color:white;
 }
 
 p#p_li2 {
-    margin-bottom:1px;
-    padding-bottom:2px;
+    margin-left:5%;
     text-align:justify;
     padding-right:1%;
     padding-left:1%;
-    background-color:#F5F5F5;
-    border:lavender solid 1px;
+    background-color:white;
 }
 p#p_li3 {
-    margin-bottom:1px;
-    padding-bottom:2px;
+    margin-left:5%;
     text-align:justify;
     padding-right:1%;
     padding-left:1%;
-    background-color:#F5F5F5;
-    border:lavender solid 1px;
+    background-color:white;
+
 }
 
 
@@ -216,7 +211,7 @@ div.ht {
     padding-right:1%;
     padding-left:1%;
     background-color:#F5F5F5;
-    margin-bottom:em;
+    margin-bottom:0.5em;
 }
 
 
@@ -228,6 +223,7 @@ div.ht2 {
     padding-right:1%;
     padding-left:1%;
     background-color:#F5F5F5;
+    margin-top:0.5em;
     margin-bottom:0.5em;
 }
 
@@ -239,6 +235,7 @@ div.sexyhair {
     padding-right:1%;
     padding-left:1%;
     background-color:#F5F5F5;
+    margin-top:0.5em;
     margin-bottom:0.5em;
 }
 
