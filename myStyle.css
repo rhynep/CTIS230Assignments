@@ -135,17 +135,11 @@ h3 {
 
 
 
-
-
-
-
-
 /* image layout */
 img {
     float:right;
     margin:.5em .5em .5em .5em;
 }
-
 
 
 
@@ -159,7 +153,7 @@ img#image2 {
 }
 
 img#name {
-    position:fixed;
+    position:absolute;
     right:9px;
     top:10px;
     opacity: 0.7;
@@ -293,7 +287,6 @@ div.writingsamples {
 
 
 
-
                 /* nav bar */ 
   div.navbar {
     display:flex;
@@ -307,8 +300,6 @@ div.writingsamples {
     margin-top:5%;
     align-items:flex-start;
     line-height:1em;
-   
-    
   }
   
   
