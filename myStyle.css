@@ -167,7 +167,7 @@ img#name {
     top:33px;
     opacity: 0.7;
 }
-
+    
 p#p_li {
     margin-left:5%;
     text-align:left;
@@ -297,18 +297,13 @@ div.writingsamples {
     flex-direction:row;
     border: 1px lavender;
     height:100px;
-    
-    margin-top:5%;
-    margin-left:5%;
-    margin-right:5%;
-    margin-top:5%;
     align-items:flex-start;
     line-height:1em;
   }
   
   
   div.nav {
-  background-color:eggshell;
+  background-color:whitesmoke;
     margin-bottom:10px;
     font-size:1.3em;
     font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
