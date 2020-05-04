@@ -16,7 +16,9 @@ function onMouseOut() {
 
 
 
-// the button: changes color of heading education
+
+
+// the button: changes color of p - store manager job description
 thebutton = document.getElementById("thebutton");
 otheritem = document.getElementById("buttontest");
 
@@ -28,17 +30,17 @@ otheritem.style.color="red";
 
 
 
-// button b: changes color of heading experience
-buttonB = document.getElementById("buttonB");
-otheritem = document.getElementById("otherbutton");
 
-buttonB.addEventListener("click", onButtonClick);
+// the second button: button 2 - ul - changes color of fashion panel
+thebutton2 = document.getElementById("thebutton2");
+otheritem = document.getElementById("buttontest2");
 
+thebutton2.addEventListener("click", onButtonClick);
 function onButtonClick() {
     otheritem.style.color="magenta";
 }
 
-// input box
+// input box 
 textentry = document.getElementById('myinput');
 myinput.addEventListener("change", onChange);
 
