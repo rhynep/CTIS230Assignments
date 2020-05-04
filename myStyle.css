@@ -121,7 +121,7 @@ li {
     display:flex;
     flex-direction:row;
     margin-top:0px;
-    text-align:justify;
+    text-align:left;
     padding-right:1%;
     padding-left:1%;
     background-color:#F5F5F5;
@@ -167,7 +167,7 @@ img#name {
 
 p#p_li {
     margin-left:5%;
-    text-align:justify;
+    text-align:left;
     padding-right:1%;
     padding-left:1%;
     background-color:white;
@@ -175,14 +175,14 @@ p#p_li {
 
 p#p_li2 {
     margin-left:5%;
-    text-align:justify;
+    text-align:left;
     padding-right:1%;
     padding-left:1%;
     background-color:white;
 }
 p#p_li3 {
     margin-left:5%;
-    text-align:justify;
+    text-align:left;
     padding-right:1%;
     padding-left:1%;
     background-color:white;
