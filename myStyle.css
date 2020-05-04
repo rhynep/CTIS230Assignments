@@ -169,27 +169,26 @@ p#p_li {
     padding-right:1%;
     padding-left:1%;
     background-color:#F5F5F5;
+    border:lavender solid 1px;
 }
 
 p#p_li2 {
     margin-bottom:1px;
     padding-bottom:2px;
-    margin-bottom:1px;
-    padding-bottom:2px;
     text-align:justify;
     padding-right:1%;
     padding-left:1%;
     background-color:#F5F5F5;
+    border:lavender solid 1px;
 }
 p#p_li3 {
     margin-bottom:1px;
     padding-bottom:2px;
-    margin-bottom:1px;
-    padding-bottom:2px;
     text-align:justify;
     padding-right:1%;
     padding-left:1%;
     background-color:#F5F5F5;
+    border:lavender solid 1px;
 }
 
 
@@ -267,7 +266,7 @@ div.edu {
     display:flex;
     flex-direction:column;
     border:lavender solid 1px;
-    text-align:justify;
+    text-align:left;
     padding-right:1%;
     padding-left:1%;
     background-color:#F5F5F5;
