@@ -9,7 +9,9 @@ body {
     text-align:center;
     margin-left:77px;
     margin-right:77px;
+  
 }
+
 
 
 
@@ -32,14 +34,14 @@ a:active{
 
 
 
+
 /* headings */
 h1 {
     color:black;
     font-family:'Saira', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:2em;
     background-color:#ECECEC;
-    text-align:left;
-    
+    text-align:left; 
 }
 
 h2 {
@@ -71,6 +73,8 @@ h5 {
 
 
 
+
+
 /* group selector */
 h1, h2, h4, h5 {
     font-weight:lighter;
@@ -78,10 +82,15 @@ h1, h2, h4, h5 {
 
 
 
+
+
 /* descendant selector */
+
+/* paragraph attributes */
 p strong {
     color:indigo;
 }
+
 p {
     margin-top:0.5px;
     margin-bottom:0.5px;
@@ -94,23 +103,36 @@ p.intro {
 
 
 
-/* margins, etc */
-h3 {
-    clear:right;
-    margin-top:1em;
-    margin-bottom:1em;
-    margin-left:1em;
-    margin-right:1em;
-}
 
-
+/* li attributes */
 ul li {
     margin-inline:1.2em;
 }
 
 li {
     font-family:'Saira', sans-serif, Arial;
+    font-weight:strong;
+    margin-left:3%;
 }
+
+
+
+
+/* margins, etc */
+h3 {
+    clear:right;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+
+
+
+
+
+
 
 /* image layout */
 img {
@@ -120,16 +142,14 @@ img {
 
 
 
+
 /* object identifiers */
 h5#email {
-
-    text-align:center;
-    
+    text-align:center;  
 }
 
 img#image2 {
-    float:left;
-   
+    float:left; 
 }
 
 img#name {
@@ -137,8 +157,14 @@ img#name {
     right:9px;
     top:10px;
     opacity: 0.7;
- 
 }
+
+p#p_li {
+    margin-bottom:1px;
+    margin-left:3%;
+    padding-bottom:2px;
+}
+
 
 
 
@@ -153,7 +179,41 @@ div.obj {
     background-color:#F5F5F5;
 }
 
-div.work {
+div.ht {
+    display:flex;
+    flex-direction:column;
+    border:lavender solid 1px;
+    text-align:justify;
+    padding-right:1%;
+    padding-left:1%;
+    background-color:#F5F5F5;
+    margin-bottom:0.5em;
+}
+
+div.sexyhair {
+    display:flex;
+    flex-direction:column;
+    border:lavender solid 1px;
+    text-align:justify;
+    padding-right:1%;
+    padding-left:1%;
+    background-color:#F5F5F5;
+    margin-bottom:0.5em;
+}
+
+div.vol40 {
+    display:flex;
+    flex-direction:column;
+    border:lavender solid 1px;
+    text-align:justify;
+    padding-right:1%;
+    padding-left:1%;
+    background-color:#F5F5F5;
+    margin-bottom:0.5em;
+}
+
+
+div.tranquility {
     display:flex;
     flex-direction:column;
     border:lavender solid 1px;
@@ -162,6 +222,7 @@ div.work {
     padding-left:1%;
     background-color:#F5F5F5;
 }
+
 
 div.edu {
     display:flex;
@@ -172,6 +233,7 @@ div.edu {
     padding-left:1%;
     background-color:#F5F5F5;
 }
+
             /* thesis titles */ 
 div.thesistitle {
     display:flex;
@@ -181,6 +243,13 @@ div.thesistitle {
     font-family:'Staatliches', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+
+div.writingsamples {
+    display:flex;
+    align-content: left;
+}
+
+
 
 
                 /* nav bar */ 
