@@ -55,6 +55,7 @@ h2 {
     font-size:1.7em;
     margin-top:0.5px;
     margin-bottom:0.5px;
+    text-align:left; 
 }
 
 h3 {
@@ -64,6 +65,7 @@ h3 {
     font-weight:strong;
     margin-bottom:0.5px;
     margin-top:0.5px;
+    text-align:left; 
 }
 
 h4 {
