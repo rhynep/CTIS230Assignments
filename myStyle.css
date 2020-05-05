@@ -296,14 +296,15 @@ div.writingsamples {
     display:flex;
     flex-direction:row;
     border: 1px lavender;
-    height:100px;
+    height:44px;
     align-items:flex-start;
     line-height:1em;
+    background-color:whitesmoke;
   }
   
   
   div.nav {
-  background-color:whitesmoke;
+    background-color:whitesmoke;
     margin-bottom:10px;
     font-size:1.3em;
     font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;

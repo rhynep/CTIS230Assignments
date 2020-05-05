@@ -30,11 +30,11 @@ otheritem.style.color="red";
 
 // the second button: button 2 - ul - changes color of fashion panel
 thebutton2 = document.getElementById("thebutton2");
-otheritem = document.getElementById("buttontest2");
+otheritem2 = document.getElementById("buttontest2");
 
-thebutton2.addEventListener("click", onButtonClick);
-function onButtonClick() {
-    otheritem.style.color="magenta";
+thebutton2.addEventListener("click", onButtonClick2);
+function onButtonClick2() {
+    otheritem2.style.color="magenta";
 }
 
 
@@ -48,3 +48,24 @@ function onChange() {
     otheritem.innerHTML = newtext;
 }
 
+
+// adding more interaction: dark mode button
+darkmodebutton = document.getElementById("darkmodebutton");
+otheritem3 = document.getElementById("getdarkmode");
+
+darkmodebutton.addEventListener("click", onButtonClick3)
+function onButtonClick3() {
+    otheritem3.style.backgroundColor = "black";
+}
+
+
+// part five: optional
+// adding new elements
+// reset button
+
+resetbutton = document.getElementById("darkmodebutton"); // adds event listener: changing text color
+resetbutton.addEventListener("change", onChange2);
+
+function onChange2 () {
+    otheritem4.style.backgroundColor = "";
+ }
