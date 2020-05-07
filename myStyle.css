@@ -329,3 +329,14 @@ div.writingsamples {
     height:10%;
     
   }
+
+
+  /* expanding images */
+img#image1 {
+    width:100px;
+}
+div#firstimage {
+    display:flex;
+    width:fit-content;
+
+}
