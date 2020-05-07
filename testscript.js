@@ -60,19 +60,19 @@ function onButtonClick3() {
 
 
 // adding javascript image views
-theImgDiv = document.getElementById("firstimage");
-theImage = document.getElementById("image1");
+theImgDiv = document.getElementById("card");
+theImage = document.getElementById("cardimage");
 theImgDiv.addEventListener("click", expandImage);
-theImage = document.getElementById("image1");
+theImage = document.getElementById("cardimage");
 
 function expandImage() {
-    if (theImgDiv.style.position == "") { //if div has orig value
+    if (theImgDiv.style.position == "") { / 
         theImgDiv.style.position = "absolute";
-    theImgDiv.style.top = "200";
+    theImgDiv.style.top = "100";
     theImgDiv.style.left = "100";
-    theImage.style.width = "auto";  // auto width w/o style sheet
+    theImage.style.width = "auto";  
 }
-else {  // make image small again
+else {   
     theImgDiv.style.position = "";
     theImage.style.width = "100";
 }
