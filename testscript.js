@@ -59,13 +59,3 @@ function onButtonClick3() {
 }
 
 
-// part five: optional
-// adding new elements
-// reset button
-
-resetbutton = document.getElementById("darkmodebutton"); // adds event listener: changing text color
-resetbutton.addEventListener("change", onChange2);
-
-function onChange2 () {
-    otheritem4.style.backgroundColor = "";
- }
