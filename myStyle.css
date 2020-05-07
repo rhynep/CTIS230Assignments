@@ -163,11 +163,10 @@ img#image2 {
 
 img#name {
     position:absolute;
+    top:33px;
     right:9px;
-    top:22px;
     bottom:11px;
     padding-bottom:11%;
-    padding-top:7%;
     opacity: 0.7;
 }
 
@@ -306,7 +305,7 @@ div.writingsamples {
     display:flex;
     flex-direction:row;
     border: 1px lavender;
-    height:44px;
+    height:33px;
     align-items:flex-start;
     line-height:1em;
     background-color:whitesmoke;
