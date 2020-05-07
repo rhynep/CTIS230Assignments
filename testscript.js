@@ -59,3 +59,22 @@ function onButtonClick3() {
 }
 
 
+// adding javascript image views
+theImgDiv = document.getElementById("firstimage");
+theImage = document.getElementById("image1");
+theImgDiv.addEventListener("click", expandImage);
+theImage = document.getElementById("image1");
+
+function expandImage() {
+    if (theImgDiv.style.position == "") { //if div has orig value
+        theImgDiv.style.position = "absolute";
+    theImgDiv.style.top = "100";
+    theImgDiv.style.left = "100";
+    theImage.style.width = "auto";  // auto width w/o style sheet
+}
+else {  // make image small again
+    theImgDiv.style.position = "";
+    theImage.style.width = "100";
+}
+}
+
