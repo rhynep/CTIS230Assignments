@@ -80,7 +80,7 @@ function expandImage() {
     }
 }
 
-// the hierophant
+// the magician
 theImgDiv1 = document.getElementById("card1");
 theImage1 = document.getElementById("cardimage1");
 theImgDiv1.addEventListener("click", expandImage1);
@@ -100,7 +100,7 @@ function expandImage1() {
     }
 }
 
-// the chariot
+// the hierophant
 theImgDiv2 = document.getElementById("card2");
 theImage2 = document.getElementById("cardimage2");
 theImgDiv2.addEventListener("click", expandImage2);
@@ -120,7 +120,7 @@ function expandImage2() {
     }
 }
 
-// the moon
+// the chariot
 theImgDiv3 = document.getElementById("card3");
 theImage3 = document.getElementById("cardimage3");
 theImgDiv3.addEventListener("click", expandImage3);
@@ -140,7 +140,7 @@ function expandImage3() {
     }
 }
 
-
+// the moon
 theImgDiv4 = document.getElementById("card4");
 theImage4 = document.getElementById("cardimage4");
 theImgDiv4.addEventListener("click", expandImage4);
