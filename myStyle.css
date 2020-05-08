@@ -331,12 +331,11 @@ div.writingsamples {
   }
 
 
-  /* expanding images */
-img#image1 {
+img#cardimage {
     width:100px;
 }
-div#firstimage {
-    display:flex;
+div.card {
+    display:none; 
     width:fit-content;
-
+  
 }
