@@ -23,11 +23,11 @@ body {
 @media (min-width: 750px) { /* larger viewport rules*/
     body {
     margin-right:33px;
-    margin-left:33px;
+    margin-left:33px; 
     }
 
 
-@media screen and (orientation: portrait) { /* portrait rules */
+@media screen and (orientation: portrait) { /* portrait/landscape rules */
         body {
             color:magenta;
         }
@@ -344,7 +344,6 @@ div.writingsamples {
 
 
 /* css for image expansion javascript */
-
 img#cardimage {
     width:100px;
 }
@@ -352,7 +351,6 @@ div.card {
     display:none; 
     width:fit-content;
   
-}
 }
 
 img#cardimage1 {
@@ -364,7 +362,6 @@ div.card1 {
   
 }
 
-
 img#cardimage2 {
     width:100px;
 }
@@ -372,7 +369,6 @@ div.card2 {
     display:none; 
     width:fit-content;
 }
-
 
 
 img#cardimage3 {
@@ -391,4 +387,5 @@ div.card4 {
     display:none; 
     width:fit-content;
   
+}
 }

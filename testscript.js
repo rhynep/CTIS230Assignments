@@ -55,7 +55,7 @@ otheritem3 = document.getElementById("getdarkmode");
 
 darkmodebutton.addEventListener("click", onButtonClick3)
 function onButtonClick3() {
-    otheritem3.style.backgroundColor = "black";
+    otheritem3.style.backgroundColor = "darkgrey";
 }
 
 
