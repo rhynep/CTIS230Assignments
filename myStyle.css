@@ -12,7 +12,7 @@ body {
   
 }
 /* media query: asks how big */
-@media (max-width: 750px) { /* small viewport rules*/
+@media (max-width: 250px) { /* small viewport rules*/
     body{
     margin-left: 0px;
     margin-right: 0px;
@@ -20,7 +20,7 @@ body {
 }
 
 
-@media (min-width: 750px) { /* larger viewport rules*/
+@media (min-width: 50px) { /* larger viewport rules*/
     body {
     margin-right:33px;
     margin-left:33px; 
