@@ -29,7 +29,7 @@ body {
 
 @media screen and (orientation: portrait) { /* portrait/landscape rules */
         body {
-            color:indigo;
+            font-weight: bold;
 
         }
     }
@@ -89,6 +89,9 @@ h5 {
     color:black;
     font-family:'Saira', sans-serif, Arial;
     font-size:large;
+    margin-top:11px;
+    margin-left:33px;
+    margin-right:33px;
 }
 
 
@@ -168,6 +171,11 @@ img {
 /* object identifiers */
 h5#email {
     text-align:center;  
+    margin-right:11%;
+    margin-left:11%;
+    margin-bottom:11%;
+    margin-top:11%;
+    
 }
 
 img#image2 {
@@ -332,21 +340,23 @@ div.writingsamples {
     background-color:whitesmoke;
   }
   
-  
   div.nav {
     background-color:whitesmoke;
     margin-bottom:10px;
     font-size:1.3em;
     font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
     color:#FF00FF;
-    height:10%;
-    
+    height:10%; 
   }
 
 
 /* css for image expansion javascript */
 img#cardimage {
     width:100px;
+    margin-right:0.3px;
+    margin-left:0.3px;
+    margin-bottom:0.3px;
+    margin-top:0.3px;
 }
 div.card {
     display:none; 
@@ -356,6 +366,10 @@ div.card {
 
 img#cardimage1 {
     width:100px;
+    margin-right:0.3px;
+    margin-left:0.3px;
+    margin-bottom:0.3px;
+    margin-top:0.3px;
 }
 div.card1 {
     display:none; 
@@ -365,7 +379,12 @@ div.card1 {
 
 img#cardimage2 {
     width:100px;
+    margin-right:0.3px;
+    margin-left:0.3px;
+    margin-bottom:0.3px;
+    margin-top:0.3px;
 }
+
 div.card2 {
     display:none; 
     width:fit-content;
@@ -374,6 +393,11 @@ div.card2 {
 
 img#cardimage3 {
     width:100px;
+    margin-right:0.3px;
+    margin-left:0.3px;
+    margin-bottom:0.3px;
+    margin-top:0.3px;
+
 }
 div.card3 {
     display:none; 
@@ -382,7 +406,11 @@ div.card3 {
 }
 
 img#cardimage4 {
-    width:100px;
+    margin-right:0.3px;
+    margin-left:0.3px;
+    margin-bottom:0.3px;
+    margin-top:0.3px;
+
 }
 div.card4 {
     display:none; 
