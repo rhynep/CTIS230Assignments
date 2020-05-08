@@ -32,6 +32,8 @@ body {
             color:magenta;
         }
     }
+
+
 /* links */
 a:link{
     color:black;
@@ -341,10 +343,51 @@ div.writingsamples {
   }
 
 
+/* css for image expansion javascript */
+
 img#cardimage {
     width:100px;
 }
 div.card {
+    display:none; 
+    width:fit-content;
+  
+}
+}
+
+img#cardimage1 {
+    width:100px;
+}
+div.card1 {
+    display:none; 
+    width:fit-content;
+  
+}
+
+
+img#cardimage2 {
+    width:100px;
+}
+div.card2 {
+    display:none; 
+    width:fit-content;
+}
+
+
+
+img#cardimage3 {
+    width:100px;
+}
+div.card3 {
+    display:none; 
+    width:fit-content;
+  
+}
+
+img#cardimage4 {
+    width:100px;
+}
+div.card4 {
     display:none; 
     width:fit-content;
   

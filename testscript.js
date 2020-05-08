@@ -59,21 +59,103 @@ function onButtonClick3() {
 }
 
 
-// adding javascript image views
+// adding javascript expansion image views
+// the star
 theImgDiv = document.getElementById("card");
 theImage = document.getElementById("cardimage");
 theImgDiv.addEventListener("click", expandImage);
 theImage = document.getElementById("cardimage");
 
 function expandImage() {
-    if (theImgDiv.style.position == "") { 
+    if (theImgDiv.style.position == "") {
         theImgDiv.style.position = "absolute";
-    theImgDiv.style.top = "100";
-    theImgDiv.style.left = "100";
-    theImage.style.width = "auto";  
+        theImgDiv.style.top = "100";
+        theImgDiv.style.left = "100";
+        theImage.style.width = "auto";
+        theImage.src = "https://rhynep.github.io/CTIS230Assignments/testing/image017.png";
+    } 
+    else { // makes it small
+        theImgDiv.style.position = "";
+        theImage.style.width = "";
+    }
 }
-else {  // make small again
-    theImgDiv.style.position = "";
-    theImage.style.width = "100";
+
+// the hierophant
+theImgDiv = document.getElementById("card1");
+theImage = document.getElementById("cardimage1");
+theImgDiv.addEventListener("click", expandImage1);
+theImage = document.getElementById("cardimage1");
+
+function expandImage1() {
+    if (theImgDiv.style.position == "") {
+        theImgDiv.style.position = "absolute";
+        theImgDiv.style.top = "100";
+        theImgDiv.style.left = "100";
+        theImage.style.width = "auto";
+        theImage.src = "https://rhynep.github.io/CTIS230Assignments/testing/image017.png";
+    } 
+    else { // makes it small
+        theImgDiv.style.position = "";
+        theImage.style.width = "";
+    }
 }
+
+// the chariot
+theImgDiv = document.getElementById("card2");
+theImage = document.getElementById("cardimage2");
+theImgDiv.addEventListener("click", expandImage2);
+theImage = document.getElementById("cardimage2");
+
+function expandImage2() {
+    if (theImgDiv.style.position == "") {
+        theImgDiv.style.position = "absolute";
+        theImgDiv.style.top = "100";
+        theImgDiv.style.left = "100";
+        theImage.style.width = "auto";
+        theImage.src = "https://rhynep.github.io/CTIS230Assignments/testing/image017.png";
+    } 
+    else { // makes it small
+        theImgDiv.style.position = "";
+        theImage.style.width = "";
+    }
+}
+
+// the moon
+theImgDiv = document.getElementById("card3");
+theImage = document.getElementById("cardimage3");
+theImgDiv.addEventListener("click", expandImage);
+theImage = document.getElementById("cardimage3");
+
+function expandImage() {
+    if (theImgDiv.style.position == "") {
+        theImgDiv.style.position = "absolute";
+        theImgDiv.style.top = "100";
+        theImgDiv.style.left = "100";
+        theImage.style.width = "auto";
+        theImage.src = "https://rhynep.github.io/CTIS230Assignments/testing/image017.png";
+    } 
+    else { // makes it small
+        theImgDiv.style.position = "";
+        theImage.style.width = "";
+    }
+}
+
+
+theImgDiv = document.getElementById("card4");
+theImage = document.getElementById("cardimage4");
+theImgDiv.addEventListener("click", expandImage);
+theImage = document.getElementById("cardimage4");
+
+function expandImage() {
+    if (theImgDiv.style.position == "") {
+        theImgDiv.style.position = "absolute";
+        theImgDiv.style.top = "100";
+        theImgDiv.style.left = "100";
+        theImage.style.width = "auto";
+        theImage.src = "https://rhynep.github.io/CTIS230Assignments/testing/image017.png";
+    } 
+    else { // makes it small
+        theImgDiv.style.position = "";
+        theImage.style.width = "";
+    }
 }
