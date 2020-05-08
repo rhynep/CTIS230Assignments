@@ -11,8 +11,8 @@ body {
     margin-right:33px;
   
 }
-/* use media query to ask how big the viewport is */
-@media (max-width: 750px) { /* these rules take effect when the viewport is small */
+/* media query: asks how big */
+@media (max-width: 750px) { /* small viewport rules*/
     body{
     margin-left: 0px;
     margin-right: 0px;
@@ -20,8 +20,18 @@ body {
 }
 
 
+@media (min-width: 750px) { /* larger viewport rules*/
+    body {
+    margin-right:33px;
+    margin-left:33px;
+    }
 
 
+@media screen and (orientation: portrait) { /* portrait rules */
+        body {
+            color:magenta;
+        }
+    }
 /* links */
 a:link{
     color:black;

@@ -68,13 +68,12 @@ theImage = document.getElementById("cardimage");
 function expandImage() {
     if (theImgDiv.style.position == "") { 
         theImgDiv.style.position = "absolute";
-    theImgDiv.style.top = "11";
-    theImgDiv.style.left = "222";
+    theImgDiv.style.top = "100";
+    theImgDiv.style.left = "100";
     theImage.style.width = "auto";  
 }
-else {  
+else {  // make small again
     theImgDiv.style.position = "";
     theImage.style.width = "100";
 }
 }
-
