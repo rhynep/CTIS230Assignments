@@ -1,0 +1,967 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&family=Staatliches&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+
+  /*  background-image: url('https://rhynep.github.io/id/images/bg_light.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+
+    color:white;
+    background-color:black;
+    font-size:1.3em;
+    font-family:'PT Sans Narrow', Arial, Helvetica, sans-serif;
+    margin-left:7px;
+    margin-right:7px;
+  
+  
+     }
+
+/* *********** *//* MEDIA QUERY *//* *********** */
+/* use media query to ask how big the viewport is */
+@media (max-width: 999px) { /* these rules take effect when the viewport is small */
+    body{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size:0.8em;
+
+         /* desktop view band image*/
+    }
+         img#theband {
+            visibility: hidden;
+        }
+        img#facesmain {
+            visibility: hidden;
+        }
+        
+}
+
+
+@media (min-width: 250px) { /* larger viewport rules*/
+    body {
+    margin-right:5px;
+    margin-left:5px; 
+    }
+
+
+@media screen and (orientation: portrait) { /* portrait/landscape rules */
+        body {
+            font-weight: bold;
+            font-size:0.9em;   
+        }
+            }
+       
+   
+/* *********** *//* LINKS *//* *********** */
+a:link{
+    color:grey;
+    text-decoration: none;
+}
+
+a:visited{
+    color:grey;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#de5004;
+    text-decoration: line-through;
+}
+
+a:active{
+    color:#e9d62a;
+    text-decoration: none;
+}
+
+
+
+/* *********** *//* HEADINGS *//* *********** */
+h1 {
+    color:white;
+    font-family:'Special Elite', 'Arial Narrow Bold', sans-serif;
+    font-size:1em;
+    padding-left:155px;
+}
+
+h2 {
+    color:white;
+    font-family:'PT Sans Narrow', 'Arial Narrow Bold', sans-serif;
+    font-size:1.3em;
+    margin-bottom:0.3em;
+    margin-top:0.3em;
+    margin-left:155px;
+}
+
+h3 {
+    color:white;
+    font-family:'Special Elite', sans-serif, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    font-weight:strong;
+    margin-bottom:0.3em;
+    margin-top:0.3em;
+    margin-left: 155px;
+}
+
+h4 {
+    color:white;
+    font-family:'Saira', sans-serif, Arial, Helvetica, sans-serif;
+    margin-bottom:0.5em;
+}
+
+h5 {
+    color:white;
+    font-family:'Saira', sans-serif, Arial;
+    font-size:large;   
+    margin-bottom:0.5em;
+}
+
+
+/* *********** *//* NAV BAR *//* *********** */        
+div.nav {
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    font-size:1em;
+    font-family:'Special Elite', 'Saira', Arial, Helvetica, sans-serif;
+    color:grey;
+    left:1px;
+    top:166px;
+    align-items:left;
+    width:399px;
+    justify-content: space-between;
+    padding-bottom:5px;
+    padding-top:33px;
+    text-align: left;
+    padding-left:22px;
+    line-height: 1.5em;
+   
+     
+}
+
+                /* nav bar layout */
+                a#musicnav {
+                    margin-left:2px;
+                    margin-bottom: 1px;
+                    line-height: 1em;
+                    height:33px;
+                    border:black dotted 0.5px;
+                }
+
+                a#videosnav {
+                    margin-right:2px;
+                    margin-bottom: 1px;
+                    line-height: 1em;
+                    height:33px;
+                    border:black dotted 0.5px;
+                }
+
+                a#aboutnav {
+                    margin-right:2px;
+                    margin-bottom: 1px;
+                    line-height: 1em;
+                    height:33px;
+                    border:black dotted 0.2px;
+                }
+
+                a#photosnav {
+                    margin-right:2px;
+                    margin-bottom: 1px;
+                    line-height: 1em;
+                    height:33px;
+                    border:black dotted 0.5px;
+                }
+                a#connectnav {
+                    margin-right:2px;
+                    margin-bottom: 1px;
+                    line-height: 1em;
+                    height:33px;
+                    border:black dotted 0.2px;
+                }
+                a#eventsnav {
+                    margin-right:2px;
+                    margin-bottom: 1px;
+                    line-height: 1em;
+                    height:33px;
+                    border:black dotted 0.5px;
+                }
+
+                a#storenav {
+                    margin-right:2px;
+                    margin-bottom: 1px;
+                    line-height: 1em;
+                    height:33px;
+                    border:black dotted 0.2px;
+                }
+                a#mainnav {
+                    margin-right:2px;
+                    margin-bottom: 1px;
+                    line-height: 1em;
+                    height:33px;
+                    border:black dotted 0.5px;
+                }
+                                /* nav spacing */
+                                p#firstline {
+                                    margin-bottom: 0.3em;
+                                }
+                                
+                               
+                            
+/* nav labels */
+a#about {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#videos {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#music {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#photos {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#connect {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#events {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#store {
+    color: #de5004;
+    text-decoration: line-through;
+}
+a#main {
+    color: #de5004;
+    text-decoration: line-through;
+}
+
+
+/* *********** *//* MAIN LAYOUT IMAGES *//* *********** */
+
+/* object identifiers */
+
+        /* band name */
+img#logoname {
+    position:absolute;
+    left:22px;
+    top:11px;
+    opacity: 92%;
+    width:211px;
+   }
+        /* band symbol */
+   img#idsymbol {
+    position:absolute;
+    align-content:center;
+    right:3px;
+    width:177px;
+    opacity: 77%;
+   }
+
+        /* desktop view band image*/
+        img#theband {
+            position: fixed;
+            right:11px;
+            bottom:44px;
+            height:444px;
+            opacity:33%;
+} 
+        /* desktop view band image*/
+        img#facesmain {
+            position:fixed;
+            right:11px;
+            bottom:44px;
+            height:444px;
+            opacity:33%;           
+ }
+        /* footer */
+#footer {
+    display:flex;
+    flex-direction: row;
+    float:right;
+    position:fixed;
+    right:3%;
+    bottom: 3px;
+    text-align: center;
+    align-content: center;   
+    opacity: 33%;
+    padding-top:7px;
+} 
+/* *********** *//* IMAGES BY PAGE *//* *********** */
+/* main */
+img#splashimage {
+   position: center;
+   padding-top:222px;
+   padding-left: 33%;
+   padding-right: 33%;
+   width:333px;
+}
+
+img#mainpagename {
+    width:277px;
+}
+
+/* music */ 
+/* videos */    
+
+/* about */
+img#aboutimages {
+    display:flex;
+    flex-direction: row;
+    padding-top:255px;
+    padding-left:33px;
+    align-items: center;
+
+}
+
+
+/* photos */
+    /* in javascript*/
+
+/* connect */
+/* events */
+/* store */
+
+
+/* *********** *//* DIV: OTHER FLEXBOX BY PAGE *//* *********** */
+
+/* main */
+div.maintext {
+    display:flex;
+    flex-direction:column;
+    position: static;
+    padding-left: 133px;
+    padding-right: 11%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:1.1em;
+    padding-top:177px;
+    width:277px;
+    
+}
+
+/* music */
+div.musictext {
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    right:5%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: left;
+    margin-bottom:0.5px;
+    width:299px;
+}
+                        /*********** list of songs ***********/
+audio#song1 {
+    display:flex;
+    flex-direction: row;
+    align-items:left;
+    padding-left:133px;
+}
+    h3#thebandname {
+        display:flex;
+        padding-left:88px;
+        background-color: grey;
+        padding-top:5px;
+        color:black;
+        padding-left:11px;
+        font-size:0.9em;
+        width:244px;
+
+}
+
+            img#songimage1 {
+               display:flex;
+               padding-top:155px;
+               padding-left:155px;
+               top:11px;
+
+            }
+            
+            h2#songtitle1 {
+                display:flex;
+                padding-left:11px;
+                color:white;
+                font-size:1em;
+            }
+
+    
+audio#song2 {
+    display:flex;
+    flex-direction: row;
+    align-items:left;
+    padding-left:133px;
+
+            }
+            img#songimage2 {
+            display:flex;
+            padding-left:155px;
+            top:99px;
+
+            }
+            h2#songtitle2 {
+                display:flex;
+                padding-left:11px;
+                color:white;
+                font-size:1em;
+            }
+
+audio#song3 {
+    display:flex;
+    flex-direction: row;
+    align-items:left;
+    padding-left:144px;
+    
+ 
+            }
+
+            img#songimage3 {
+                display:flex;
+                padding-left:155px;
+                padding-bottom:1%;
+                top:444px;
+                right:33px;
+                align-items:right;
+            }
+
+            h2#songtitle3 {
+                display:flex;
+                padding-left:11px;
+                color:white;
+                font-size:1em;
+            }
+
+
+/* videos */
+div.videostext {
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    right:5%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: right;
+    margin-bottom:0.5px;
+    padding-top:144px;
+}
+                        /*********** list of videos ***********/
+            div.endlessvideo {
+                display:flex;
+                align-content: center;
+                padding-left:133px;
+                padding-top:144px;
+                margin-bottom:0.5px;
+            }
+
+            div.carelessvideo {
+                display:flex;
+                align-content: center;
+                padding-left:133px;
+                padding-top:33px;
+                margin-bottom:0.5px;
+            }
+
+/* about */
+div.bandbio {
+    display:flex;
+    flex-direction: column;
+    right:5%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: right;
+    margin-bottom:0.5px;
+}
+
+/* photos */
+div.photostext {
+    display:flex;
+    position: fixed;
+    right:5%;
+    flex-direction: column;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: right;
+    margin-bottom:0.5px;
+}
+
+/* connect */
+div.connecttext1 {
+    display:flex;
+    flex-direction: column;
+    position: static;
+    padding-left:15%;
+    font-family:'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: left;
+    margin-bottom:0.5px;
+    padding-top: 299px;
+   
+}
+
+        h3#socialmedia {
+            display:flex;
+            color:black;
+            background-color: grey;
+            padding-left:11px;
+            font-size:0.8em;
+            line-height: 1.5em;
+            font-family:'Saira', Arial, Helvetica, sans-serif;
+            width:199px;
+    }
+            
+                h2#sminsta {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:0.8em;
+                    padding-top:1px;
+                    font-family:'Saira', Arial, Helvetica, sans-serif;
+                }
+            
+                h2#smyoutube {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:0.8em;
+                    padding-top:1px;
+                    font-family:'Saira', Arial, Helvetica, sans-serif;
+                }
+ 
+                h2#smtwitter {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:0.8em;
+                    padding-top:1px;
+                    font-family:'Saira', Arial, Helvetica, sans-serif;
+                }
+                
+  
+                h2#smfacebook {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:0.8em;
+                    padding-top:1px;
+                    font-family:'Saira', Arial, Helvetica, sans-serif;
+                }
+            
+                h2#smbandcamp {
+                    display:flex;
+                    padding-left:11px;
+                    color:white;
+                    font-size:0.8em;
+                    padding-top:1px;
+                    font-family:'Saira', Arial, Helvetica, sans-serif;
+                }
+h2#email {
+font-size: 0.8em;}
+
+
+/* events */
+div.eventstext {
+        display:flex;
+        flex-direction: column;
+        position: static;
+        font-family:'Saira', Arial, Helvetica, sans-serif;
+        font-size:1em; 
+        text-align: center;
+        margin-bottom:0.5px;
+        padding-top: 255px;
+       
+    }
+        h3#skeletons {
+            display:flex;
+            flex-direction: column;
+            font-size:1.5em;
+            border:dotted white 1px;
+            width:222px;
+            line-height:2em;
+            text-align: left;
+        }
+        h2#skeletons1 {
+            display:flex;
+            flex-direction: column;
+            font-size:1.5em;
+            width:222px;
+            line-height:2em;
+            text-align: left;
+        }
+
+
+/* store */
+div.storetext {
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    right:5%;
+    font-family:'PT Sans Narrow', 'Saira', Arial, Helvetica, sans-serif;
+    font-size:1em; 
+    text-align: right;
+    margin-bottom:0.5px;
+    padding-top:255px;
+    padding-left:155px;
+}
+                            /* *********** *//* JAVASCRIPT CONNECTIONS *//* *********** */
+
+/* store javascript */
+
+div.teediv1 {
+    display:none; 
+    flex-direction: row;
+    width:fit-content;
+}
+                img#tee1 {
+                    display:flex;
+                    flex-direction: row;
+                    width:311px;
+                    padding-top:222px;
+                    padding-left:144px;
+                    margin-top:1px;
+                    margin-bottom:3px;
+                }
+                
+                div.tee1info {
+                    display:flex;
+                    flex-direction: row;
+                    position: absolute;
+                    width:311px;
+                    padding-left:133px;
+                    margin-top:1px;
+                    margin-bottom:11px;
+                    }
+
+div.teediv2 {
+    display:none; 
+    flex-direction: row;
+    width:fit-content;
+    align-content: center;
+}
+                img#tee2 {
+                    display:flex;
+                    flex-direction: row;
+                    width:311px;
+                    padding-top:11px;
+                    padding-left:144px;
+                    margin-top:1px;
+                    margin-bottom:3px;
+                }
+                
+                div.tee2info {
+                    display:flex;
+                    flex-direction: row;
+                    position: absolute;
+                    width:311px;
+                    padding-left:133px;
+                    margin-top:1px;
+                    margin-bottom:11px;
+                    }
+
+div.teediv3 {
+    display:none; 
+    flex-direction: row;
+    width:fit-content;
+    align-content: center;
+}
+                img#tee3 {
+                    display:flex;
+                    flex-direction: row;
+                    width:311px;
+                    padding-top:11px;
+                    padding-left:144px;
+                    margin-top:1px;
+                    margin-bottom:3px;
+                }
+                
+                div.tee3info {
+                    display:flex;
+                    flex-direction: row;
+                    position: absolute;
+                    width:311px;
+                    padding-left:133px;
+                    margin-top:1px;
+                    margin-bottom:11px;
+                    }
+
+div.teediv4 {
+    display:none; 
+    flex-direction: row;
+    width:fit-content;
+    align-content: center;
+}
+                img#tee4 {
+                    display:flex;
+                    flex-direction: row;
+                    width:311px;
+                    padding-top:11px;
+                    padding-left:144px;
+                    margin-top:1px;
+                    margin-bottom:3px;
+                }
+                
+                div.tee4info {
+                    display:flex;
+                    flex-direction: row;
+                    position: absolute;
+                    width:311px;
+                    padding-left:133px;
+                    margin-top:1px;
+                    margin-bottom:11px;
+                    }
+
+/* photos */
+        /*********** square photos with js ***********/
+
+div.squarediv1 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+        img#square1 {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            padding-top:233px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:22px;
+        }
+
+div.squarediv2 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+        img#square2 {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            align-content: right;
+            padding-top:111px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:22px;
+        }
+
+div.squarediv3 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+        img#square3 {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            align-content: right;
+            padding-top:111px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:22px;
+        }
+
+div.squarediv4 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+        img#square4 {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            align-content: right;
+            padding-top:111px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:1px;
+        }
+
+div.squarediv5 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+        img#square5 {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            align-content: right;
+            padding-top:111px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:1px;
+        }
+
+div.squarediv6 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+        img#square6 {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            align-content: right;
+            padding-top:111px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:1px;
+        }
+
+div.squarediv7 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+        img#square7 {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            align-content: right;
+            padding-top:111px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:1px;
+        }
+
+div.squarediv8 {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+}
+
+        img#square8 {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            align-content: right;
+            padding-top:111px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:1px;
+        }
+
+div.squarediv {
+    display:none; 
+    width:fit-content;
+    align-content: center;
+    }
+            
+        img#square {
+            display:flex;
+            flex-direction: row;
+            width:311px;
+            padding-top:111px;
+            padding-left:133px;
+            margin-top:1px;
+            margin-bottom:22px;
+            }
+
+ /* *********** *//* SUBLIMINAL WITH JS */ /* *********** */
+ 
+ /* about */
+    /*********** symbol flashes ***********/
+div.flashes1 {
+    visibility:hidden;
+    position:fixed;
+    color:black;
+    margin-right:55px;
+    margin-top:55px;
+    transition-property:visibility;
+    transition-duration: 1s;
+}
+
+}
+
+/* falling flower images */
+img#flower1 {
+    position:fixed;
+    top:22px;
+    right:22px;
+    bottom:11px;
+    padding-top:22px;
+    margin-bottom:5px;
+    opacity: 0.7;
+    transform: rotate(111deg);
+}
+
+img#flower2 {
+    position:absolute;
+    bottom:33px;
+    left:11px;
+    bottom:11px;
+    padding-bottom:1%;
+    margin-bottom:5px;
+    transform: rotate(77deg) scale(0.9);
+}
+
+img#flower3 {
+    position:absolute;
+    bottom:477px;
+    right:377px;
+    bottom:44px;
+    padding-bottom:1%;
+    margin-bottom:5px;
+    opacity: 0.9;
+    transform: rotate(88deg) scale(0.9);
+}
+
+img#flower4 {
+    position:absolute;
+    bottom:333px;
+    right:33px;
+    bottom:11px;
+    padding-bottom:1%;
+    margin-bottom:5px;
+    opacity: 0.7;
+    transform: rotate(77deg) scale(0.9);
+}
+
+img#flower5 {
+    position:absolute;
+    bottom:77px;
+    right:77px;
+    bottom:11px;
+    padding-bottom:1%;
+    margin-bottom:5px;
+    opacity: 0.7;
+    transform: rotate(77deg) scale(0.9);
+}
+
+
+img#flower6 {
+    position:absolute;
+    bottom:33px;
+    left:11px;
+    bottom:111px;
+    padding-bottom:1%;
+    margin-bottom:5px;
+    opacity: 0.7;
+    transform: rotate(177deg) scale(0.9);
+}
+
+img#flower7 {
+    position:fixed;
+    top:422px;
+    right:144px;
+    bottom:11px;
+    padding-top:22px;
+    margin-bottom:5px;
+    opacity: 0.7;
+    transform: rotate(111deg);
+}

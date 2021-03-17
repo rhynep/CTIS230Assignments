@@ -32,6 +32,8 @@ theTextInput.addEventListener("blur", changeText); // blur is when textfield los
 theTextInput.addEventListener("change", changeText); // change is when user hits enter
 
 
+theImgDiv = document.getElementById("card");
+theImage = document.getElementById("cardimage");
 theImgDiv.addEventListener("click", expandImage);
 theImage = document.getElementById("cardimage");
 

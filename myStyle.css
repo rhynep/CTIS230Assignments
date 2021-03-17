@@ -57,7 +57,6 @@ a:active{
 h1 {
     color:black;
     font-family:'Saira', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:2em;
     background-color:#F5F5F5;
     text-align:left; 
 }
@@ -351,6 +350,8 @@ div.writingsamples {
 
 
 /* css for image expansion javascript */
+
+
 img#cardimage {
     width:100px;
     margin-right:0.3px;

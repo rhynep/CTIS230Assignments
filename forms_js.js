@@ -7,3 +7,5 @@ function formfunction() { // we can write a new page to send back to the browser
     document.write(mytext.value);
     document.write("</h1>");
 }
+
+// prints for developers: console.log(mytext.value);
